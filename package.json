@@ -1,0 +1,22 @@
+{
+  "name": "jsnad-certificate",
+  "version": "1.0.0",
+  "description": "JSNAD certification preparation exercises",
+  "author": {
+    "name": "Jonathan Rodriguez Sanchez",
+    "email": "jonathan.rodriguez.sanchez@u-erre.mx"
+  },
+  "license": "ISC",
+  "scripts": {
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "engines": {
+    "node": "14"
+  }
+}
