@@ -1,6 +1,5 @@
 let x = 5;
 setTimeout(() => {
-  debugger;
   const y = 20 * x; // evaluated to zero
   console.log(y);
 }, 1000);

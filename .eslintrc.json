@@ -19,9 +19,11 @@
     "no-underscore-dangle": "off",
     "import/extensions": "off",
     "import/no-unresolved": "off",
-    "class-methods-use-this": "off",
-    "no-debugger": "off",
+    "class-methods-use-this": "warn",
+    "no-debugger": "warn",
     "func-names": "off",
-    "max-classes-per-file": "off"
+    "max-classes-per-file": "warn",
+    "object-curly-newline": "off",
+    "wrap-iife": "off"
   }
 }
